@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.Checkbtn,.listitem{
+        display:inline-block;
+}
+.listitem{
+       text-transform:capitalize;
+}
+
+.list{
+    list-style:"none";
+}
+
+.lineStyle{
+    text-decoration:line-through;
+    color:#ddd;
+}
+
+.layout{
+    width:60%;
+    margin:0 auto;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+}
+
+.display{
+    display: none;
+}
+
+.table{
+    border:1px solid rgb(233, 233, 233);
+    width:100%;
+    text-align:center;
+}
+
+.success{
+    background-color:rgb(123, 209, 103);
+}
+
+
+
+.tbody tr:nth-child(odd){
+    background-color:#555;
+    color:#fff;
+}
+
+.tbody tr td{
+    border-bottom:1px solid #ddd;
+    
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.conditionbutton{
+    padding:5px 10px;
+    border:0px solid;
+    border-radius:5px;
+    background-color:red;
+    color:#fff;
+}
+.running{
+    background-color:green;
+    color:#fff;
+   
+}
+
+.tablebtn{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom:20px;
+}
